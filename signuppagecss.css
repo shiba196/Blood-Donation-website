@@ -1,0 +1,155 @@
+body {
+}
+.hero-image {
+  background-image: url("C:/Users/subha/Desktop/website/iamges/back.jpeg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  opacity: 0.9;
+}
+
+.actual-body {
+	padding: 30px;
+  background-color: blanchedalmond;
+  margin: auto;
+  margin-top: 100px;
+  width: 600px;
+  font-size: 18px;
+  border-radius: px;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4);
+  min-height: 100px;
+  opacity: 0.6;
+
+}
+
+
+.header{
+	background-image: chakra.png;
+	text-align: center;
+	padding: 0px;
+}
+
+/*ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: :#111;
+}*/
+
+.active {
+	background-image:chakra.png;
+}
+
+/*.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}*/
+
+/*.column {
+	float: left;
+	width: 33.33%;
+	
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px){
+	.column{
+		width: 100%
+	}
+}*/
+
+.footer{
+	background-color: #f1f1f1;
+	padding:0px;
+	text-align: center;
+}
+
+.button {
+  background-color: rgba(102, 51, 153, 1.0); 
+  border: none;
+  color: #262228;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {border-radius: 40px;}
+.button {border-radius: 40px;}
+.button {width: 25%;}
+.button {width: 25%;}
+
+.button1 {border-radius: 40px;
+background-color: rgba(0, 0, 0, 0.6);
+cursor: pointer;}
+
+

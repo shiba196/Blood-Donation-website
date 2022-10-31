@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.034), rgba(0,0,0,.5)), url(loginsignup.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    width: 1500px;
+    min-height: 100px;
+    background: rgba(201, 201, 201, 0.521);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+.container .my-button {
+              
+              text-decoration: none;
+              display: inline-block;
+              margin: 5px; /* space between buttons */
+              background: #ff2156; /* background color */
+              color: rgb(253, 253, 253); /* text color */
+              font-size: 1.5em;
+              font-family: 'Poppins', sans-serif;
+              border-radius: 70px; /* rounded corners */
+              padding: 20px 32px; /* space around text */
+              -moz-transition: all 0.2s;
+              -webkit-transition: all 0.2s;
+              transition: all 0.2s;
+}
+.container .my-button:hover {
+              background: rgb(154, 226, 255);
+              color: #000000;
+}
+.container .my-button1 {
+              
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background: #ffffff2d; /* background color */
+  color: rgb(51, 51, 51); /* text color */
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  border-radius:0%; /* rounded corners */
+  
+  padding: 8px 16px; /* space around text */
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 1px;
+  height: 70px;
+  width:70px;
+  
+}
+.container .my-button2 {
+              
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background: #ffffff2d; /* background color */
+  color: rgb(51, 51, 51); /* text color */
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  border-radius:0%; /* rounded corners */
+  padding: 8px 16px; /* space around text */
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 1px;
+  height: 70px;
+  width:90px;
+  
+}
+
+.container .header {
+  width:800px;
+  min-height: 1px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  box-shadow: 0 0 0px rgba(0,0,0,.3);
+  padding: 40px 30px;
+}
+
+.dropbtn {
+  background-color: #FF2156;
+  border-radius: 10px; /* rounded corners */
+  color: black;
+  padding: 20px 32px; 
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover {
+  background: rgb(154, 226, 255);
+  color: #000000;
+}
+
